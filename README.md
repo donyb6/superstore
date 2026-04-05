@@ -17,17 +17,20 @@ Managed NULL and blank values in dataset
 The dataset was normalized into three tables:
 
 -Customers
+
   customer_id (Primary Key),
   customer_name,
   segment
   
 -Products
+
   product_id (Primary Key),
   product_name,
   category,
   sub_category
   
 -Orders
+
   row_id,
   customer_id (Foreign Key),
   product_id (Foreign Key),
