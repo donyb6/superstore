@@ -15,19 +15,22 @@ Managed NULL and blank values in dataset
 * Data Modeling (Normalisation)
   
 The dataset was normalized into three tables:
+
 -Customers
-  customer_id (Primary Key)
-  customer_name
+  customer_id (Primary Key),
+  customer_name,
   segment
+  
 -Products
-  product_id (Primary Key)
-  product_name
-  category
+  product_id (Primary Key),
+  product_name,
+  category,
   sub_category
+  
 -Orders
-  row_id
-  customer_id (Foreign Key)
-  product_id (Foreign Key)
+  row_id,
+  customer_id (Foreign Key),
+  product_id (Foreign Key),
   order_date, sales, quantity, etc.
   
 * Relationships
