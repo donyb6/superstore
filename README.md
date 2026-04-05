@@ -1,4 +1,5 @@
 **Superstore Sales Data Analysis (SQL)**
+
 Project Overview
 This project involves cleaning, transforming, and analyzing a retail transactional dataset using SQL.
 
